@@ -1,0 +1,24 @@
+1. Goal: Build a simple application that tells you what groceries to buy based on what meals you want to eat
+
+2. Deadline: 12.03.2026
+
+3. Things my program needs to do:
+  - It needs to be able to run from the terminal
+  - Needs to store different recipes and the amount of groceries needed in a database
+  - Needs to take the amount of days I want to buy groceries for as input
+  - Needs to take as many recipes I want to cook as the given days as input
+  - Needs to give me an ordered  list of groceries I need to buy as .txt file on my desktop
+
+4. Libraries:
+  - iostream
+  - fstream
+
+5. Structure:
+
+1: database
+2: functions
+  2_1: database reader
+  2_2: number of days taker
+  2_3: recipes taker
+  2_4: text file outputter 
+3: main.cpp
